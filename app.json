@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dev.rajdeep.tamaguiexample"
     },
     "android": {
       "adaptiveIcon": {
@@ -35,15 +36,7 @@
       "expo-router",
       "expo-font",
       [
-        "expo-build-properties",
-        {
-          "ios": {
-            "newArchEnabled": true
-          },
-          "android": {
-            "newArchEnabled": true
-          }
-        }
+        "expo-build-properties"
       ],
       "expo-web-browser"
     ],
